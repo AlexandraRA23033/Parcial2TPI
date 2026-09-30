@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Modelos;
+
+abstract class Producto{
+    public function __construct(public readonly string $nombre, public readonly float $precioBase)
+    {
+    }
+
+}
+
+?>
