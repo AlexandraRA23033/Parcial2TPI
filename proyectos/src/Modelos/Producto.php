@@ -7,6 +7,7 @@ abstract class Producto{
     {
     }
 
+    abstract public function precioFinal(int $cantidad): float;
 }
 
 ?>
